@@ -1,0 +1,52 @@
+/* TABLAS DE PREVISUALIZACIÓN TIPO1 */
+
+#prev{
+    min-height: 523px;
+    margin: auto;
+    border: 1px solid gray;
+    width: 95%;
+    background-color: whitesmoke;
+	overflow-y: auto;
+}
+
+#prev table{
+    border-collapse: collapse;
+    width: 99%;
+    margin: auto;
+}
+
+#prev table tr th{
+    border: 1px solid lightgray;
+	padding: 2px 5px;
+}
+#prev table tr td{
+	border: 1px solid whitesmoke;
+	padding: 2px 5px;
+}
+
+#prev table tr th a{
+    color: gray;
+}
+
+#resultado{
+	border: 1px solid lightgray;
+	cursor: pointer;
+}
+
+#resultado:hover{
+	background-color: gray; color: whitesmoke;
+}
+
+#prev p{
+    margin: auto auto 5px auto;
+    padding: 5px;
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+    cursor: default;
+    border-bottom: 1px solid lightgray;
+}
+
+#prev p a{
+    color: red;
+}

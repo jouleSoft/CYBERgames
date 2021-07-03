@@ -1,0 +1,76 @@
+/*CLIENTES EDITOR*/
+
+.divColumna{
+	float:left;
+	margin: 10px 10px 10px 10px;
+	padding: 5px
+}
+
+#columnaIzquierda{
+	width: 20%;
+	border-left: 1px solid red;
+	padding: 10px 0 10px 5px;
+}
+#columnaDerecha{
+	width: 70%;
+}
+
+#columnaNomApe{
+	width: 100%;
+	margin:0;
+}
+
+.divFilaContacto{
+	margin: 5px 0;
+}
+.divFilaDomicilio{
+	margin: 5px 0;
+}
+.divFilaBotones{
+	width: 70%;
+	margin: 60px auto;
+}
+
+
+
+#formEditor{
+	display: block;
+	width: 80%;
+	height: 800px;
+	margin: 0 auto;
+}
+
+#selectorPlataforma{
+	margin-left: 30px;
+}
+
+#inputDNI{
+	width: 85px;
+	margin-left: 5px;
+}
+#inputNombre, #inputApellidos{
+	width: 350px;
+	margin-left: 5px;
+	float: right;
+}
+
+#inputTelefono1{
+	width: 100px;
+	margin-left: 51px;
+}
+#inputTelefono2{
+	width: 100px;
+	margin-left: 56px;
+}
+#inputEmail{
+	width: 350px;
+	margin-left: 88px;
+}
+#inputDireccion{
+	width: 350px;
+	margin-left: 59px;
+}
+#inputCpostal{
+	width: 100px;
+	margin-left: 68px;
+}

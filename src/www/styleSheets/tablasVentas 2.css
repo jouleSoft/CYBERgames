@@ -1,0 +1,45 @@
+/*TABLAS DE PREVISUALIZACIÓN VENTAS*/
+
+table tr, table td{
+	font-size: 12px;
+}
+
+#DivSeleccionArt table{
+	border-collapse: collapse;
+	width: 99%;
+	margin: auto;
+}
+#prev_art_row:hover{
+	background-color: gray;
+	color: whitesmoke;
+	cursor: pointer;
+}
+#artPRECIO, #artSTOCK{
+	width: 65px;
+	text-align: center;
+}
+#artID{
+	width: 55px;
+	text-align: center;
+}
+#DivSeleccionVenta table{
+	border-collapse: collapse;
+	width: 99%;
+	margin: auto;
+}
+#prev_vent_row:hover{
+	background-color: gray;
+	color: whitesmoke;
+	cursor: pointer;
+}
+#ventaVALOR, #ventaSUB{
+	width: 65px;
+	text-align: center;
+}
+#ventaIDART, #ventaCANTIDAD{
+	width: 55px;
+	text-align: center;
+}
+#ventaTITULO{
+	text-align: left;
+}

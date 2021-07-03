@@ -1,0 +1,75 @@
+/*CLIENTES VISOR*/
+
+.divColumna{
+	float:left;
+	margin: 10px 10px 10px 10px;
+	padding: 5px
+}
+
+#columnaIzquierda{
+	width: 20%;
+	border-left: 1px solid red;
+	padding: 10px 0 10px 5px;
+}
+#columnaDerecha{
+	width: 70%;
+}
+
+#columnaNomApe{
+	width: 100%;
+	margin:0;
+}
+
+.divFila{
+	margin: 5px 0;
+	padding: 0 20px 0 20px;
+}
+
+.divFila div {
+	display: inline-block;
+}
+
+#filaPW{
+	width: 40%;
+	margin: 10px auto;
+}
+
+.divFilaBotones2{
+	min-width: 630px;
+	width: 56%;
+	margin: 200px auto;
+}
+
+.divFilaBotones2 input{
+	margin: 0 20px 0 20px;
+}
+
+.divFilaBotones{
+	min-width: 375px;
+	width: 33%;
+	margin: 200px auto;
+}
+
+.divFilaBotones input{
+	margin: 0 20px 0 20px;
+}
+
+#formEditor{
+	display: block;
+	width: 80%;
+	height: 800px;
+	margin: 0 auto;
+}
+
+#divUsername{
+	border-bottom: 2px solid gray;
+	padding: 5px;
+}
+#nombreApellidos,#bracketIzq, #bracketDcha{
+	font-size: 20px;
+	color: gray;
+}
+#username,#tipoVentana{
+	font-size: 20px;
+	color: red;
+}

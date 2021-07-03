@@ -1,0 +1,49 @@
+/*ARTICULOS EDITOR*/
+
+.divColumna{
+	float:left;
+	margin: 10px 10px 10px 10px;
+	padding: 5px
+}
+.divFilaNegocio{
+	margin: 5px 0;
+}
+.divFilaBotones{
+	width: 70%;
+	margin: 60px auto;
+}
+
+#columnaIzquierda{
+	width: 20%;
+	border-left: 1px solid red;
+}
+#columnaDerecha{
+	width: 70%;
+}
+
+#formEditor{
+	display: block;
+	width: 80%;
+	height: 800px;
+	margin: 0 auto;
+}
+
+#selectorPlataforma{
+	margin-left: 30px;
+}
+
+#inputTítulo{
+	width: 100%;
+}
+#inputStock{
+	width: 100px;
+	margin-left: 130px;
+}
+#inputPCompra{
+	width: 100px;
+	margin-left: 51px;
+}
+#inputPVenta{
+	width: 100px;
+	margin-left: 65px;
+}

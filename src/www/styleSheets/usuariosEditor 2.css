@@ -1,0 +1,49 @@
+/*CLIENTES VISOR*/
+
+.divColumna{
+	float:left;
+	margin: 10px 10px 10px 10px;
+	padding: 5px
+}
+
+#columnaIzquierda{
+	width: 20%;
+	border-left: 1px solid red;
+	padding: 10px 0 10px 5px;
+}
+#columnaDerecha{
+	width: 70%;
+}
+
+#columnaNomApe{
+	width: 100%;
+	margin:0;
+}
+
+.divFila{
+	margin: 5px 0;
+}
+.divFila div {
+	display: inline-block;
+}
+input[type="text"]{
+	background-color: whitesmoke;
+}
+.divFilaBotones{
+	width: 70%;
+	margin: 60px auto;
+}
+
+#formEditor{
+	display: block;
+	width: 80%;
+	height: 800px;
+	margin: 0 auto;
+}
+
+#labelDNI{
+	width: 85px;
+	margin-left: 5px;
+}
+
+

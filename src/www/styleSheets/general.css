@@ -1,0 +1,207 @@
+/* JULIO JIMÉNEZ DELGADO */
+
+
+body{
+    background-color: lightgray;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+fieldset{
+	border: 1px solid red;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+legend{
+	font-size: 10px;
+	color: gray;
+}
+label{
+	font-size: 12px;
+}
+input[type=button], input[type=submit]{
+	border: none;
+	border-radius: 5px;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+/*** --------------- ***/
+/*** CLASES GLOBALES ***/
+/*** --------------- ***/
+
+.core{
+    max-width: 1400px;
+    min-width: 1000px;
+    margin: auto;
+}
+
+.divDataInput{
+	margin: 25px auto;
+	width: 70%;
+	height: 400px;
+}
+.selector{
+	margin: 15px 0 0 0;
+	background-color: lightgray;
+	font-size: 12px;
+	width: 42.5%;
+}
+.añadirElemento{
+	color: green;
+	cursor: pointer;
+	font-size: 19px;
+}
+
+.inputTexto{
+	background-color: lightgray;
+	font-size: 12px;
+}
+.botónAceptar{
+	float: right;
+	background-color: red;
+	color: white;
+}
+
+.botónEdicion, .botónEliminar{
+	float: right;
+}
+.botónCancelar{
+	background-color: darkgray;
+	color: white;
+}
+
+/*** ----------------- ***/
+/*** ESTILOS GENERALES ***/
+/*** ----------------- ***/
+
+/* NAV BAR */
+/* ------- */
+
+#nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+#nav ul li{
+    float: left;
+	cursor:pointer;
+}
+
+#nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav ul li a:hover{
+    background-color: whitesmoke;
+    color: gray;
+}
+
+/* HEADER */
+/* ------ */
+
+#header{
+    background-color: whitesmoke;
+    padding: 0;
+}
+
+#logo{
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    cursor: default;
+}
+
+#logo p{
+    font-family:sans-serif;
+    font-size: 13px;
+}
+
+#logo p a{
+    color: red;
+    writing-mode: vertical-rl;
+    font-size: 13px;
+    font-family: fantasy;
+}
+
+#usuario{
+    cursor: default;
+    float: right;
+    margin: 24px 24px 0 0;
+}
+
+#usuario a{
+    color: red;
+    font-size: 12px;
+    font-family:sans-serif;
+}
+
+/* MAIN */
+/* ---- */
+
+#main{
+    padding-bottom: 15px;
+    width: auto;
+	height: auto;
+    min-height: 550px;
+}
+
+/* FOOTER */
+/* ------ */
+
+#footer{
+    width: auto;
+    height: auto;
+    border-top: 1px solid gray;
+}
+
+#footer p{
+    font-size: 10px;
+    text-align: center;
+    cursor: default;
+}
+
+/* BARRA DE BOTONES SUPERIOR */
+/* ------------------------- */
+
+#button_bar {
+    display: block;
+    margin: auto auto 5px auto;
+    width: 95%;
+}
+
+#button_bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#button_bar ul li{
+    float: left;
+    margin: 0 3px;
+}
+
+#button_bar ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 3px 5px;
+    text-decoration: none;
+    background-color: gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#button_bar ul li a:hover{
+    opacity: 0.7;
+}

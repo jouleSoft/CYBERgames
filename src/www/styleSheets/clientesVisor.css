@@ -1,0 +1,70 @@
+/*CLIENTES VISOR*/
+
+.divColumna{
+	float:left;
+	margin: 10px 10px 10px 10px;
+	padding: 5px
+}
+
+#columnaIzquierda{
+	width: 20%;
+	border-left: 1px solid red;
+	padding: 10px 0 10px 5px;
+}
+#columnaDerecha{
+	width: 70%;
+}
+
+#columnaNomApe{
+	width: 100%;
+	margin:0;
+}
+
+.divFilaContacto{
+	margin: 5px 0;
+}
+.divFilaDomicilio{
+	margin: 5px 0;
+}
+.divFilaBotones{
+	width: 70%;
+	margin: 60px auto;
+}
+
+#formEditor{
+	display: block;
+	width: 80%;
+	height: 800px;
+	margin: 0 auto;
+}
+
+#labelDNI{
+	width: 85px;
+	margin-left: 5px;
+}
+#labelNombre, #labelApellidos{
+	width: 350px;
+	margin-left: 5px;
+	float: right;
+}
+
+#labelTelefono1{
+	width: 100px;
+	margin-left: 51px;
+}
+#labelTelefono2{
+	width: 100px;
+	margin-left: 51px;
+}
+#labelEmail{
+	width: 100px;
+	margin-left: 88px;
+}
+#labelDireccion{
+	width: 350px;
+	margin-left: 55px;
+}
+#labelCpostal{
+	width: 100px;
+	margin-left: 66px;
+}

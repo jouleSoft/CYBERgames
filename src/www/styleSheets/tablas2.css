@@ -1,0 +1,106 @@
+/*TABLAS DE PREVISUALIZACIÓN TIPO 2*/
+
+#prev_art{
+    display: block;
+    margin: 0;
+    border: 1px solid gray;
+    width: 71%;
+    height: auto;
+    min-height: 523px;
+    background-color: whitesmoke;
+    float:left;
+	overflow-y: auto;
+}
+
+#prev_art table{
+    border-collapse: collapse;
+    width: 99%;
+    margin: auto;
+}
+
+#prev_art tr{
+	text-align: center;
+}
+
+#prev_art_row:hover{
+	background-color: gray;
+	color: whitesmoke;
+	cursor: pointer;
+}
+
+#prev_art table th{
+    border: 1px solid lightgray;
+    padding: 2px 5px;
+}
+
+#prev_art table td{
+	border: 1px solid whitesmoke;
+	padding: 2px 5px;
+}
+
+#prev_art table th a{
+    color: gray;
+}
+
+#prev_art p{
+    margin: auto auto 5px auto;
+    padding: 5px;
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+    cursor: default;
+    border-bottom: 1px solid lightgray;
+	overflow-y: auto;
+}
+
+#prev_art p a{
+    color: red;
+}
+
+#table_list{
+    display: block;
+    margin: 0 15px; 0 0;
+    border: 1px solid gray;
+    width: 25%;
+    height: auto;
+    min-height: 523px;
+    background-color: whitesmoke;
+    float: left;
+}
+
+#table_list table{
+    border-collapse: collapse;
+    width: 99%;
+    margin: auto;
+}
+
+#table_list table td{
+    color: gray;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+#table_list table td:hover{
+    background-color: gray;
+    color: whitesmoke;
+}
+
+#table_list p{
+    margin: auto auto 5px auto;
+    padding: 5px;
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+    cursor: default;
+    border-bottom: 1px solid lightgray;
+}
+
+#artTITULO, #artPLAT, #artPRECIO{
+	text-align: left;
+}
+#artTITULO{
+	width: 360px;
+}
+#artPLAT{
+	width: 200px;
+}

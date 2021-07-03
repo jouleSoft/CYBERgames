@@ -1,0 +1,58 @@
+/*ARTICULOS VISOR*/
+
+.divColumna{
+	float:left;
+	margin: 10px 10px 10px 10px;
+	padding: 5px
+}
+.divFilaNegocio{
+	margin: 5px 0;
+}
+.divFilaBotones{
+	width: 70%;
+	margin: 60px auto;
+}
+
+#columnaIzquierda{
+	width: 20%;
+	border-left: 1px solid red;
+}
+#columnaDerecha{
+	width: 70%;
+}
+
+#formEditor{
+	display: block;
+	width: 80%;
+	height: 800px;
+	margin: 0 auto;
+}
+
+.divEtiquetaDatosInferior{
+	margin-top: 15px;
+}
+
+.etiquetaTitulo{
+	
+}
+
+#etiquetaStock{
+	margin-left: 150px;
+}
+
+#etiquetaPCompra{
+	margin-left: 71px;
+}
+
+#etiquetaPVenta{
+	margin-left: 86px;
+}
+
+#etiquetaInferiorDcha{
+	float:right;
+	margin-right: 55px;
+}
+
+a{
+	color: gray;
+}

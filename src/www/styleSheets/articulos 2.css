@@ -1,0 +1,35 @@
+/* PÁGINA ARTÍCULOS */
+/* ---------------- */
+
+#art_button_bar {
+    display: block;
+    margin: auto 15px 5px 15px;
+    width: auto;
+}
+
+#art_button_bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#art_button_bar ul li{
+    float: left;
+    margin: 0 3px;
+}
+
+#art_button_bar ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 3px 5px;
+    text-decoration: none;
+    background-color: gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#art_button_bar ul li a:hover{
+    opacity: 0.7;
+}

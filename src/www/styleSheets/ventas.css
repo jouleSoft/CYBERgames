@@ -1,0 +1,218 @@
+
+
+#DivSuperior{
+	display: block;
+	margin: auto auto 15px auto;
+	border: 1px solid gray;
+	width: 95%;
+	height: 170px;
+	background-color: whitesmoke;
+}
+#DivDatos{
+	width: 400px;
+	padding: 10px;
+	float: left;
+}
+#fsCliente{
+	height: 130px;
+}
+#DivAñadirElemento{
+	padding: 5px 10px;
+	float: left;
+}
+#DivDNI{
+	padding: 7.5px 7px;
+	float: left;
+}
+	#labelDNI{
+		margin-right: 10px;
+	}
+#DivNombreApellidos{
+	padding: 7.5px 7px;
+	float: left;
+}
+#DivEmail{
+	padding: 7.5px 7px;
+	float: left;
+	margin: 0 0 0 126px;
+}
+#DivTelefonos{
+	padding: 7.5px 7px;
+	float: left;
+	margin: 0 0 0 126px;
+	
+}
+#labelTelefono1{
+	margin-left: 25px;
+}
+#labelTelefono2{
+	margin-left: 9px;
+}
+#DivFacturacion{
+	width: 100px;
+	padding: 20px;
+	float: right;
+}
+#DivInferior{
+	display: block;
+	margin: auto auto 15px auto;
+	width: 95%;
+}
+#DivSeleccionPlat{
+	display: inline-block;
+	float: left;
+	margin-bottom: 15px;
+	border: 1px solid gray;
+	width: 20%;
+	min-height: 364px;
+	background-color: whitesmoke;
+}
+#DivSeleccionPlat table{
+	border-collapse: collapse;
+	width: 99%;
+	margin: auto;
+}
+#DivSeleccionPlat table tr:hover{
+	background-color: gray;
+	color: whitesmoke;
+	cursor: pointer;
+}
+#DivSeleccionPlat p{
+	margin: auto auto 5px auto;
+	padding: 5px;
+	color: gray;
+	font-size: 15px;
+	text-align: center;
+	cursor: default;
+	border-bottom: 1px solid lightgray;
+}
+#DivSeleccionArt{
+	display: inline-block;
+	float: left;
+	margin: 0 2px 15px 2px;
+	border: 1px solid gray;
+	width: 35%;
+	min-height: 364px;
+	background-color: whitesmoke;
+}
+
+#DivSeleccionArt p{
+	margin: auto auto 5px auto;
+	padding: 5px;
+	color: gray;
+	font-size: 15px;
+	text-align: center;
+	cursor: default;
+	border-bottom: 1px solid lightgray;
+}
+#DivSeleccionVenta{
+	display: inline-block;
+	float:right;
+	margin: 0 0 2px 2px;
+	border: 1px solid gray;
+	width: 43%;
+	min-height: 190px;
+	background-color: whitesmoke;
+}
+#DivSeleccionVenta p{
+	margin: auto auto 5px auto;
+	padding: 5px;
+	color: gray;
+	font-size: 15px;
+	text-align: center;
+	cursor: default;
+	border-bottom: 1px solid lightgray;
+}
+
+#DivSumarioVenta{
+	display: inline-block;
+	float:right;
+	margin: 0 0 15px 2px;
+	border: 1px solid gray;
+	width: 43%;
+	height: 170px;
+	background-color: whitesmoke;
+}
+#DivSumarioVentaIzquierda, #DivSumarioVentaDerecha{
+	width: 48%;
+	height: 150px;
+}
+#DivSumarioVentaIzquierda{
+	float:left;
+	padding: 5px;
+}
+		
+#DivSumarioVenta p{
+	margin: auto auto 5px auto;
+	padding: 5px;
+	color: gray;
+	font-size: 15px;
+	text-align: center;
+	cursor: default;
+	border-bottom: 1px solid lightgray;
+}
+#DivSumarioVentaLinea1{
+	border-bottom: 1px solid gray;
+	padding: 3px;
+	width: 90%;
+}
+#DivSumarioVentaLinea1Izq{
+	display: inline-block;
+}
+#DivSumarioVentaLinea1Dcha{
+	display: inline-block;
+	margin: 0 0 0 30px;
+}
+				
+#DivSumarioVentaLinea2{
+	border-bottom: 1px solid gray;
+	padding: 3px;
+	width: 90%;
+}
+#DivSumarioVentaLinea2Izq{
+	display: inline-block;
+}
+#DivSumarioVentaLinea2Dcha{
+	display: inline-block;
+	margin: 0 0 0 70px;
+}
+				
+#DivSumarioVentaLinea3{
+	border-bottom: 1px solid gray;
+	padding: 3px;
+	width: 90%;
+}
+#DivSumarioVentaLinea3Izq{
+	display: inline-block;
+}
+#DivSumarioVentaLinea3Dcha{
+	display: inline-block;
+	margin: 0 0 0 79px;
+}
+#DivSumarioVentaLinea4{
+	padding: 25px 3px;
+	width: 90%;
+}
+#DivSumarioVentaLinea4Izq{
+	display: inline-block;
+}
+#DivSumarioVentaLinea4Dcha{
+	display: inline-block;
+	margin: 0 0 0 7px;
+}
+#LabelTotal2{
+	margin-left: 88px;
+	color: gray;
+	font-weight: bold;
+}
+#LabelTotalArticulos2, #LabelSubtotal2, #LabelIVA2{
+	font-weight: bold;
+}
+#DivSumarioVentaDerecha{
+	float: right;
+}
+#DivSumarioVentaDerecha input{
+	margin: 20%;
+	background-color: red;
+	color: white;
+}

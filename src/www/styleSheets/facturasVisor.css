@@ -1,0 +1,58 @@
+/*FACTURAS VISOR*/
+
+.divColumna{
+	float:left;
+	margin: 10px 10px 10px 10px;
+	padding: 5px
+}
+
+#columnaIzquierda{
+	width: 20%;
+	border-left: 1px solid red;
+	padding: 10px 0 10px 5px;
+}
+#columnaDerecha{
+	width: 70%;
+}
+
+#columnaDatFactIzq{
+	display: inline-block;
+	width: 150px;
+	margin:0;
+}
+
+#columnaDatFactDcha{
+	display:inline-block;
+	float: right;
+	width: 150px;
+	margin:0;
+}
+
+.divFila{
+	margin: 5px 0;
+	width: 30%;
+}
+
+.divFilaBotones{
+	width: 115px;
+	margin: 60px auto;
+}
+
+#divFilaDcha{
+	float: right;
+}
+
+#formVisor{
+	display: block;
+	width: 80%;
+	height: 800px;
+	margin: 0 auto;
+}
+
+#labelidfact{
+	width: 85px;
+	margin-left: 5px;
+}
+#labelfecha, #labeldni{
+	margin-left: 5px;
+}
