@@ -18,7 +18,7 @@
             #CG p a{
                 color: red;
                 font-size: 25px;
-                font-family: fantasy;
+                font-family: roboto;
             }
             
             #nav_hole{
